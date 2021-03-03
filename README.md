@@ -28,7 +28,7 @@ This World of Warcraft addon developer toolset for VS Code includes an improved 
 
 ### Grammars
 
-#### > Lua 5.1 language
+#### Lua 5.1 language
 
 wow-bundle replaces VS Code's built-in Lua language grammar. Changes worth noticing are:
 
@@ -38,7 +38,7 @@ wow-bundle replaces VS Code's built-in Lua language grammar. Changes worth notic
 * Better **character escapes** inside strings: Unicode entities, decimal and hexadecimal values and control chars
 
 
-#### > World of Warcraft API
+#### World of Warcraft API
 
 wow-bundle's Lua grammar also tags a bunch of WoW-related stuff:
 
@@ -56,9 +56,13 @@ wow-bundle's Lua grammar also tags a bunch of WoW-related stuff:
 ![lua](images/lua.png)
 
 
-#### > Toc files
+#### Toc files
 
-Also included is a simple grammar for `.toc` files with support for keywords (like `## Interface`, `## Author` and such) and X-keywords (like `## X-Date`, `## X-Website` and such)
+Also included is a simple grammar for `.toc` files with support for:
+
+* keywords (like `## Interface` or `## Author`)
+  * localized keywords (like `## Title-deDE` or `## Notes-ptBR`)
+* X-keywords (like `## X-Date` or `## X-Website`)
 
 ![toc](images/toc.png)
 

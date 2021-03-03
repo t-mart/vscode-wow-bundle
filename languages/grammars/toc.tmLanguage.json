@@ -6,7 +6,7 @@
 
     "patterns": [
         {
-            "match": "^(##)\\s*(Author|DefaultState|Dependencies|Interface|Load(?:OnDemand|With|Managers)|Notes(?:\\-[a-z]{2}[A-Z]{2})?|OptionalDeps|OptionalDependencies|RequiredDeps|RequiredDependencies|SavedVariables(?:PerCharacter)?|Secure|Title(?:\\-[a-z]{2}[A-Z]{2})?|Version)\\s*(:)\\s*(.*)$",
+            "match": "^(##)\\s*(Author|DefaultState|Dependencies|Interface|Load(?:OnDemand|With|Managers)|Notes(?:\\-(?:deDE|enGB|enUS|esES|esMX|frFR|itIT|koKR|ptBR|ruRU|zhCN|zhTW))?|OptionalDeps|OptionalDependencies|RequiredDeps|RequiredDependencies|SavedVariables(?:PerCharacter)?|Secure|Title(?:\\-(?:deDE|enGB|enUS|esES|esMX|frFR|itIT|koKR|ptBR|ruRU|zhCN|zhTW))?|Version)\\s*(:)\\s*(.*)$",
             "captures": {
                 "1": { "name": "keyword.operator.toc" },
                 "2": { "name": "keyword.control.toc"  },
